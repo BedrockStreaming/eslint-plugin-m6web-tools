@@ -1,0 +1,20 @@
+{
+  "name": "eslint-plugin-m6web-tools",
+  "version": "1.0.0",
+  "description": "Tooling for eslint and prettier used in m6web projects",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "lib/index.js",
+  "author": "M6Web",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-m6web": "https://github.com/M6Web/eslint-config-m6web.git#bump",
+    "eslint-config-prettier": "2.6.0",
+    "eslint-plugin-prettier": "2.3.1",
+    "prettier": "1.7.4",
+    "prettier-eslint-cli": "4.4.0"
+  }
+}
