@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "eslint": "^4.8.0",
-    "eslint-config-m6web": "https://github.com/M6Web/eslint-config-m6web.git#bump",
+    "eslint-config-m6web": "1.1.0",
     "eslint-config-prettier": "2.6.0",
     "eslint-plugin-prettier": "2.3.1",
     "prettier": "1.7.4",
