@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-m6web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "m6web",
+    "javascript",
+    "styleguide"
+  ],
+  "scripts": {
+    "test": "echo 'Test OK.'",
+    "build": "echo 'Build OK.",
+    "lint": "eslint index.js",
+    "prettier-eslint": "prettier-eslint --write index.js"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-prettier": "2.6.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-prettier": "2.3.1",
+    "eslint-plugin-react": "7.4.0",
+    "prettier-eslint-cli": "4.4.0"
+  }
+}
