@@ -12,8 +12,8 @@
     "styleguide"
   ],
   "scripts": {
-    "test": "echo 'Test OK.'",
-    "build": "echo 'Build OK.",
+    "test": "echo 'Test OK'",
+    "build": "echo 'Build OK",
     "lint": "eslint index.js",
     "prettier-eslint": "prettier-eslint --write index.js"
   },
