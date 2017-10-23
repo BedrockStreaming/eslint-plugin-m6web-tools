@@ -1,20 +1,14 @@
 {
-  "name": "eslint-plugin-m6web-tools",
-  "version": "1.0.0",
-  "description": "Tooling for eslint and prettier used in m6web projects",
-  "repository": {
-    "type": "git",
-    "url": ""
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "cleanup": "lerna run clean",
+    "build": "lerna run build --parallel",
+    "lint": "lerna run lint --stream",
+    "format": "lerna run format --stream",
+    "test": "lerna run test --stream",
+    "ci": "yarn lint && yarn test && yarn build"
   },
-  "main": "lib/index.js",
-  "author": "M6Web",
-  "license": "MIT",
-  "dependencies": {
-    "eslint": "^4.8.0",
-    "eslint-config-m6web": "1.1.0",
-    "eslint-config-prettier": "2.6.0",
-    "eslint-plugin-prettier": "2.3.1",
-    "prettier": "1.7.4",
-    "prettier-eslint-cli": "4.4.0"
+  "devDependencies": {
+    "lerna": "2.2.0"
   }
 }
