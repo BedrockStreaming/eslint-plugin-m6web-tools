@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-m6web-tools",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Tooling for eslint and prettier used in m6web projects",
   "repository": {
     "type": "git",
